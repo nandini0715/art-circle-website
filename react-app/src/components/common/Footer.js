@@ -21,10 +21,18 @@ const Footer = () => {
               artcirclewebsite@gmail.com
             </p>
             <div className="social-icons d-flex justify-content-md-start justify-content-center mt-3">
-              <a href="https://www.facebook.com/artcircleratnagiri" className="fab fa-facebook-f" target="_blank" rel="noopener noreferrer"></a>
-              <a href="https://www.youtube.com/@artcircleratnagiri" className="fab fa-youtube" target="_blank" rel="noopener noreferrer"></a>
-              <a href="https://www.instagram.com/artcircleratnagiri/" className="fab fa-instagram" target="_blank" rel="noopener noreferrer"></a>
-              <a href="https://www.linkedin.com/in/artcircleratnagiri-undefined-507a33325/" className="fab fa-linkedin" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://www.facebook.com/artcircleratnagiri" className="fab fa-facebook-f" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <span className="sr-only">Facebook</span>
+              </a>
+              <a href="https://www.youtube.com/@artcircleratnagiri" className="fab fa-youtube" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                <span className="sr-only">YouTube</span>
+              </a>
+              <a href="https://www.instagram.com/artcircleratnagiri/" className="fab fa-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <span className="sr-only">Instagram</span>
+              </a>
+              <a href="https://www.linkedin.com/in/artcircleratnagiri-undefined-507a33325/" className="fab fa-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <span className="sr-only">LinkedIn</span>
+              </a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -67,7 +75,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom mt-4">
         <p>
-          &copy; 2025 <a href="#">artcircleratnagiri.org</a>. All Rights Reserved. 
+          &copy; 2025 <Link to="/">artcircleratnagiri.org</Link>. All Rights Reserved. 
           Designed by <a href="mailto:nandinijadhav1525@gmail.com?cc=shravanis0511@gmail.com">Nandini & Shravani</a>.
         </p>
       </div>
